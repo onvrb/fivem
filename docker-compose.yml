@@ -2,15 +2,13 @@ version: '3'
 
 services:
   fivem:
-    image: spritsail/fivem
+    image: onvrb/fivem
     container_name: fivem
-    restart: always
+    restart: unless-stopped
     stdin_open: true
     tty: true
     volumes:
-      - "/path/to/resources/folder:/config"
+      - "/home/docker/fivem/roleplay-fivem:/config"
     ports:
       - "30120:30120"
       - "30120:30120/udp"
-    environment:
-      LICENCE_KEY: "license-key-here"
