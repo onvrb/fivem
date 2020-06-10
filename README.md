@@ -16,7 +16,7 @@ A tutorial on how to obtain a licence key can be found [here](https://forum.five
 
 docker-compose block:
 
-```sh
+```yml
 version: '3'
 
 services:
