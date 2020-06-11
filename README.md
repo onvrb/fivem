@@ -1,6 +1,8 @@
 [hub]: https://hub.docker.com/r/onvrb/fivem
 [git]: https://github.com/onvrb/fivem
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/onvrb/fivem.svg)][hub]
+
 # [onvrb/fivem][hub]
 
 This is an **advanced** implementation of a docker image that allows you to run a server for [FiveM](https://fivem.net/) through [txAdmin](https://github.com/tabarra/txAdmin) web panel.
