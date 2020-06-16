@@ -10,6 +10,5 @@ services:
     volumes:
       - "/home/docker/fivem/roleplay-fivem:/config"
     ports:
-      - "30110:30110"
       - "30120:30120"
       - "30120:30120/udp"
