@@ -43,6 +43,7 @@ LABEL maintainer="Spritsail <fivem@spritsail.io>" \
 COPY --from=builder /output/ /
 
 WORKDIR /config
+EXPOSE 30110
 EXPOSE 30120
 EXPOSE 40120
 
