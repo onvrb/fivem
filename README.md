@@ -14,7 +14,7 @@ The container should be stopped so fivem can be configured to the user requireme
 
 ## Access
 
-The ports listened are 30120 (FiveM) and 40120 (txAdmin), however only 30120 is exposed to the host so players can connect. Port 40120 can be accessed by other containers, like [letsencrypt](https://hub.docker.com/r/linuxserver/letsencrypt) for reverse-proxy or locally on http://localhost:40120 after exposing the port. I do not recommend exposing port 40120 to the host if you don't know what you're doing.
+The ports listened are 30120 (FiveM) and 40120 (txAdmin). Port 40120 can be accessed (unexposed) by other containers, like a reverse proxy by [letsencrypt](https://hub.docker.com/r/linuxserver/letsencrypt) or locally, from host (exposed), on http://localhost:40120. Be careful where do you expose the port to. By default I left the port unexposed on line `41` of docker-compose.yml.
 
 ## Licence Key
 
