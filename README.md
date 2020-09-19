@@ -5,7 +5,7 @@
 
 # [onvrb/fivem][hub]
 
-This is an **advanced** implementation of a docker image that allows you to run a server for [FiveM](https://fivem.net/) through [txAdmin](https://github.com/tabarra/txAdmin) web panel.
+This is an implementation of a docker image that allows you to run a server for [FiveM](https://fivem.net/) through [txAdmin](https://github.com/tabarra/txAdmin) web panel.
 
 Upon first run, the configuration is generated in the host mount for the `/config` directory.
 The container should be stopped so fivem can be configured to the user requirements in the `/config/cfgs/server.cfg`.
