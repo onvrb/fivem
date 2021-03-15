@@ -8,7 +8,7 @@ services:
     stdin_open: true
     tty: true
     volumes:
-      - "/home/docker/fivem/roleplay-fivem:/config"
+      - "./fivem:/config"
     ports:
       - "30120:30120"
       - "30120:30120/udp"
